@@ -1,0 +1,70 @@
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "firstName": "Cho",
+  "lastName": "Poppo",
+  "email": "poppo@gmail.com"
+}
+
+###
+
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "firstName": "Jang",
+  "lastName": "Ita",
+  "email": "ita@gmail.com"
+}
+
+###
+
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "firstName": "Lim",
+  "lastName": "Mahnduck",
+  "email": "mahnduck@gmail.com"
+}
+
+###
+
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "firstName": "Lee",
+  "lastName": "Delphine",
+  "email": "delphine@gmail.com"
+}
+
+###
+
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{
+  "firstName": "Yeo",
+  "lastName": "James",
+  "email": "james@gmail.com"
+}
+
+###
+
+http://localhost:8080/users
+
+###
+
+http://localhost:8080/users?firstName=Yeo&email=james@
+
+###
+
+http://localhost:8080/usersSearch?search=firstName:Yeo,lastName:James
+
+###
+
+http://localhost:8080/usersSearch?search=firstName:Yeo
+
+###
